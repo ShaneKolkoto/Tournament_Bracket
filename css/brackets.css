@@ -1,0 +1,178 @@
+.simple-tournament-brackets {
+  overflow-x: auto;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  display: contents;
+}
+.simple-tournament-brackets-progress {
+  height: 5px;
+  background-color: #ff4200;
+}
+.simple-tournament-brackets-round-header-container {
+  display: inline-block;
+  white-space: nowrap;
+}
+.simple-tournament-brackets-round-header {
+  background-color: #8dc63f;
+  color: #40394a;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
+  width: 198px;
+  display: inline-block;
+  margin: 1px;
+}
+.simple-tournament-brackets-round-body-container {
+  white-space: nowrap;
+  display: inline-block;
+}
+.simple-tournament-brackets-round-body {
+  width: 200px;
+  display: inline-block;
+}
+.simple-tournament-brackets-match {
+  display: flex;
+  position: relative;
+}
+.simple-tournament-brackets-match-body {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  flex-grow: 1;
+  margin-right: 32px;
+}
+.simple-tournament-brackets-competitor {
+  display: block;
+  padding: 0 3px 0 3px;
+  border-radius: 0 0 5px 5px;
+}
+.simple-tournament-brackets-competitor:first-child {
+  border-radius: 5px 5px 0 0;
+}
+.simple-tournament-brackets-competitor-highlight {
+  background-color: #6b6b6b;
+}
+.simple-tournament-brackets .match-half {
+  display: block;
+}
+.simple-tournament-brackets .top-half {
+  width: 32px;
+  height: calc((100% / 2) + 1px);
+  background-image: url(../images/top.gif);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.simple-tournament-brackets .bottom-half {
+  width: 32px;
+  height: calc((100% / 2) + 1px);
+  background-image: url(../images/bottom.gif);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.simple-tournament-brackets .winners-line {
+  width: 32px;
+  height: 100%;
+  margin-left: -32px;
+  background-image: url(../images/winners.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+}
+.simple-tournament-brackets .more-details {
+  color: #ff4200;
+  cursor: pointer;
+  opacity: 0.5;
+  position: absolute;
+}
+.simple-tournament-brackets .top-half > .dropdown > .more-details {
+  top: -25px;
+}
+.simple-tournament-brackets .winners-line > .dropdown > .more-details {
+  top: -17px;
+  left: -22px;
+}
+.simple-tournament-brackets .more-details:hover {
+  -webkit-animation: fadeInFromNone 0.5s ease-out forwards;
+  animation: fadeInFromNone 0.5s ease-out forwards;
+}
+@-webkit-keyframes fadeInFromNone {
+  0% {
+    opacity: 0.5;
+  }
+  1% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeInFromNone {
+  0% {
+    opacity: 0.5;
+  }
+  1% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.simple-tournament-brackets .dropdown {
+  position: relative;
+  display: inline-block;
+  right: -30px;
+}
+.simple-tournament-brackets .dropdown-content {
+  display: none;
+  position: absolute;
+  left: 20px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.simple-tournament-brackets .top-half > .dropdown > .dropdown-content {
+  top: -25px;
+}
+.simple-tournament-brackets .winners-line > .dropdown > .dropdown-content {
+  left: -3px;
+  top: -25px;
+}
+.simple-tournament-brackets .dropdown-content a {
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.simple-tournament-brackets .dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+.simple-tournament-brackets .dropdown:hover .dropdown-content {
+  display: block;
+}
+.simple-tournament-brackets .vertical-line {
+  width: 32px;
+  height: 100%;
+  margin: auto;
+  background-image: url(../images/line.gif);
+  background-repeat: no-repeat;
+  margin-right: 0;
+}
+.simple-tournament-brackets .horizontal-line {
+  width: 32px;
+  height: 100%;
+  margin-left: -32px;
+  background-image: url(../images/tlin.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+}

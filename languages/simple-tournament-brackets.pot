@@ -1,0 +1,346 @@
+# Copyright (C) 2022 simple-tournament-brackets
+# This file is distributed under the same license as the simple-tournament-brackets package.
+msgid ""
+msgstr ""
+"Project-Id-Version: simple-tournament-brackets\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/classes/class-admin.php:66
+msgid "Tournament Settings"
+msgstr ""
+
+#: includes/classes/class-admin.php:67, includes/classes/class-initialize.php:62
+msgid "Tournaments"
+msgstr ""
+
+#: includes/classes/class-admin.php:75, includes/classes/class-admin.php:76
+msgid "Start Tournament"
+msgstr ""
+
+#: includes/classes/class-admin.php:101
+msgid "Seed Tournament"
+msgstr ""
+
+#: includes/classes/class-admin.php:106, includes/classes/class-admin.php:125
+msgid "Enter one unique competitor name per line."
+msgstr ""
+
+#: includes/classes/class-admin.php:107, includes/classes/class-admin.php:127
+msgid "The total competitors must be a power of 2 greater than 4 (4, 8, 16, 32, 64, 128, 256)."
+msgstr ""
+
+#: includes/classes/class-admin.php:115
+msgid "Enter Competitors"
+msgstr ""
+
+#: includes/classes/class-admin.php:122, includes/classes/class-admin.php:305
+msgid "Enter one competitor per line."
+msgstr ""
+
+#: includes/classes/class-admin.php:126
+msgid "Competitors are seeded in the order they appear above."
+msgstr ""
+
+#: includes/classes/class-admin.php:136, includes/classes/class-admin.php:465
+msgid "Start"
+msgstr ""
+
+#: includes/classes/class-admin.php:161
+msgid "Save Settings"
+msgstr ""
+
+#: includes/classes/class-admin.php:178
+msgid "Bracket colors"
+msgstr ""
+
+#: includes/classes/class-admin.php:185
+msgid "Round Header Color"
+msgstr ""
+
+#: includes/classes/class-admin.php:186
+msgid "The round header font color."
+msgstr ""
+
+#: includes/classes/class-admin.php:190
+msgid "Round Background Color"
+msgstr ""
+
+#: includes/classes/class-admin.php:191
+msgid "The round header background color."
+msgstr ""
+
+#: includes/classes/class-admin.php:195
+msgid "Match Color"
+msgstr ""
+
+#: includes/classes/class-admin.php:196
+msgid "The match font color."
+msgstr ""
+
+#: includes/classes/class-admin.php:200
+msgid "Match Background Color"
+msgstr ""
+
+#: includes/classes/class-admin.php:201
+msgid "The match background color."
+msgstr ""
+
+#: includes/classes/class-admin.php:205
+msgid "Match Hover Color"
+msgstr ""
+
+#: includes/classes/class-admin.php:206
+msgid "The match font color when the cursor hovers over the match."
+msgstr ""
+
+#: includes/classes/class-admin.php:210
+msgid "Match Background Hover Color"
+msgstr ""
+
+#: includes/classes/class-admin.php:211
+msgid "The match background color when the cursor hovers over the match."
+msgstr ""
+
+#: includes/classes/class-admin.php:215
+msgid "Progress Bar Color"
+msgstr ""
+
+#: includes/classes/class-admin.php:216
+msgid "The progress bar color."
+msgstr ""
+
+#: includes/classes/class-admin.php:246
+msgid "Modify the colors used for tournament brackets."
+msgstr ""
+
+#: includes/classes/class-admin.php:296
+msgid "Competitors"
+msgstr ""
+
+#: includes/classes/class-admin.php:307
+msgid "Enter one competitor per line. Competitors are seeded in the order they appear above."
+msgstr ""
+
+#: includes/classes/class-admin.php:322
+msgid "Tournament Competitors"
+msgstr ""
+
+#: includes/classes/class-admin.php:344
+msgid "Open"
+msgstr ""
+
+#: includes/classes/class-admin.php:345
+msgid "In Progress"
+msgstr ""
+
+#: includes/classes/class-admin.php:346
+msgid "Finished"
+msgstr ""
+
+#: includes/classes/class-admin.php:428
+msgid "Status"
+msgstr ""
+
+#: includes/classes/class-admin.php:429
+msgid "Shortcode"
+msgstr ""
+
+#: includes/classes/class-admin.php:466
+msgid "Reset"
+msgstr ""
+
+#: includes/classes/class-admin.php:467
+msgid "Finish"
+msgstr ""
+
+#: includes/classes/class-initialize.php:63
+msgid "Tournament"
+msgstr ""
+
+#: includes/classes/class-initialize.php:64
+msgid "Add New"
+msgstr ""
+
+#: includes/classes/class-initialize.php:65
+msgid "Add New Tournament"
+msgstr ""
+
+#: includes/classes/class-initialize.php:66
+msgid "Edit Tournament"
+msgstr ""
+
+#: includes/classes/class-initialize.php:67
+msgid "New Tournament"
+msgstr ""
+
+#: includes/classes/class-initialize.php:68
+msgid "View Tournament"
+msgstr ""
+
+#: includes/classes/class-initialize.php:69
+msgid "View Tournaments"
+msgstr ""
+
+#: includes/classes/class-initialize.php:70
+msgid "Search Tournaments"
+msgstr ""
+
+#: includes/classes/class-initialize.php:71
+msgid "No Tournaments found."
+msgstr ""
+
+#: includes/classes/class-initialize.php:72
+msgid "No tournaments found in Trash."
+msgstr ""
+
+#: includes/classes/class-initialize.php:73
+msgid "All Tournaments"
+msgstr ""
+
+#: includes/classes/class-initialize.php:74
+msgid "Tournament Archives"
+msgstr ""
+
+#: includes/classes/class-initialize.php:75
+msgid "Tournament Attributes"
+msgstr ""
+
+#: includes/classes/class-initialize.php:76
+msgid "Filter tournaments list"
+msgstr ""
+
+#: includes/classes/class-initialize.php:77
+msgid "Tournaments list navigation"
+msgstr ""
+
+#: includes/classes/class-initialize.php:78
+msgid "Tournaments list"
+msgstr ""
+
+#: includes/classes/class-initialize.php:79
+msgid "Tournament published."
+msgstr ""
+
+#: includes/classes/class-initialize.php:80
+msgid "Tournament published privately."
+msgstr ""
+
+#: includes/classes/class-initialize.php:81
+msgid "Tournament reverted to draft."
+msgstr ""
+
+#: includes/classes/class-initialize.php:82
+msgid "Tournament scheduled."
+msgstr ""
+
+#: includes/classes/class-initialize.php:83
+msgid "Tournament updated."
+msgstr ""
+
+#: includes/classes/class-initialize.php:191, includes/classes/class-initialize.php:222
+msgid "Id for the match."
+msgstr ""
+
+#: includes/classes/class-initialize.php:196, includes/classes/class-initialize.php:227
+msgid "Tournament Id for the match."
+msgstr ""
+
+#: includes/classes/class-initialize.php:201
+msgid "Winner id for the match."
+msgstr ""
+
+#: includes/classes/class-initialize.php:248, includes/classes/class-initialize.php:307
+msgid "Tournament does not exist."
+msgstr ""
+
+#: includes/classes/class-initialize.php:292, includes/classes/class-initialize.php:394
+msgid "Invalid tournament status."
+msgstr ""
+
+#: includes/classes/class-initialize.php:272, includes/classes/class-initialize.php:349
+msgid "The post type has malformed match data for tournament."
+msgstr ""
+
+#: includes/classes/class-initialize.php:277
+msgid "You may not clear a first round match."
+msgstr ""
+
+#: includes/classes/class-initialize.php:258, includes/classes/class-initialize.php:318
+msgid "The tournament has finished."
+msgstr ""
+
+#: includes/classes/class-initialize.php:256, includes/classes/class-initialize.php:316, includes/classes/class-shortcodes.php:62
+msgid "The tournament has not started."
+msgstr ""
+
+#: includes/classes/class-initialize.php:336
+msgid "Invalid winner id for the tournament match."
+msgstr ""
+
+#: includes/classes/class-initialize.php:334
+msgid "The post type has malformed competitor data for the tournament."
+msgstr ""
+
+#: includes/classes/class-initialize.php:353
+msgid "Invalid winner id for the match."
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:66
+msgid "Round 1"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:67
+msgid "Round 2"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:68
+msgid "Round 3"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:69
+msgid "Round 4"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:70
+msgid "Round 5"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:71
+msgid "Quarter-Finals"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:72
+msgid "Semi-Finals"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:73
+msgid "Finals"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:74, includes/classes/class-shortcodes.php:109
+msgid "Winner"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:105
+msgid "An error occurred."
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:107
+msgid "Clear"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:108
+msgid "Advance {NAME}"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:129
+msgid "Loading brackets..."
+msgstr ""
